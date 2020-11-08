@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Source Sans Pro', sans-serif;
+  display:flex;
+  margin:0;
+
+  
+}
+
+nav{
+  background-color:#f5f6fa;
+  min-width:300px;
+  border-right:2px solid black;
+  height:100vh;
+}
+
+nav a{
+  border-top: 1px solid black;
+  color:black;
+  display:block;
+  padding:15px;
+  text-decoration:none;
+}
+
+nav header{
+  padding:15px;
+}
+
+main{
+  background-color:white;
+  height:100vh;
+  overflow-y: scroll;
+}
+
+section{
+  padding:25px;
+  line-height:1.4;
+}
+
+header{
+  font-weight:800;
+  font-size:25px;
+  
+}
+
+#ctrl{
+  border:2px solid black;
+  background:#c72c90;
+  color:white;
+  padding:5px 10px;
+  font-weight:730;
+}
+
+#X{
+    border:2px solid black;
+  background:#fcda60;
+  color:black;
+  padding:5px 10px;
+  font-weight:730;
+}
+
+#alt{
+    border:2px solid black;
+  background:#2ca7de;
+  color:white;
+  padding:5px 10px;
+  font-weight:730;
+}
+
+#C{
+    border:2px solid black;
+  background:#171a1c;
+  color:#c0cac8;
+  padding:5px 10px;
+  font-weight:730;
+}
+
+#V{
+   border:2px solid black;
+  background:#beb7d9;
+  color:black;
+  padding:5px 10px;
+  font-weight:730;
+}
+
+#shift{
+   border:2px solid black;
+  background:#5c4ea4;
+  color:white;
+  padding:5px 10px;
+  font-weight:730;
+}
+
+#A{
+border:2px solid black;
+  background:#a5d0ed;
+  color:black;
+  padding:5px 10px;
+  font-weight:730;
+}
+
+@media(max-width:450px){
+  
+  body{
+    flex-direction:column;
+  }
+  nav{
+    border-right:none;
+    border-bottom:2px solid black;
+    height:300px;
+    overflow-y:scroll;
+    width:100%;
+  }
+  
+  main{
+    height:auto;
+    width:100%;
+    overflow-y:none;
+  }
+}
